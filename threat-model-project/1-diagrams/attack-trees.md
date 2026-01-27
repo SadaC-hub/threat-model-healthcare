@@ -43,7 +43,7 @@ graph TD
     PHY --> PHY_TG[Tailgate into Facility]
     PHY --> PHY_WS[Access Workstation]
     PHY --> PHY_COPY[Copy Data to Removable Media]
-
+```md
 
 ## Easiest Path Analysis
 
