@@ -29,7 +29,8 @@ Solaris Care Connect 360, a healthcare platform managing 50,000 patient records,
 
 ### Risk Summary
 
-The current security posture has significant gaps in preventive and detective controls. Without remediation, there is HIGH probability of a data breach within 12 months.
+The current security posture has significant gaps in both preventive and detective controls. As a result, the overall risk posture is assessed as **High Risk**, driven by Critical and High-severity findings impacting credential security and database access controls. Without remediation, there is a high probability of a data breach within the next 12 months, including unauthorised access to PHI, which would result in regulatory exposure, reputational damage, and operational disruption.
+
 
 ---
 
