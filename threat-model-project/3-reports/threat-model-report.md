@@ -197,19 +197,20 @@ Primary attack scenarios analyzed:
 ## Appendices
 
 ### A. Complete Threat Register
-[Link to stride-threats.md]
+[View Threat Register](../2-templates/stride-threats.md)
 
 ### B. Architecture Diagrams
-[Link to architecture.md]
+[View Architecture Diagrams](../1-diagrams/architecture.md)
 
 ### C. Data Flow Diagrams
-[Link to dfd-level0.md, dfd-level1.md]
+[View DFD Level 0](../1-diagrams/dfd-level0.md)  
+[View DFD Level 1](../1-diagrams/dfd-level1.md)
 
 ### D. MITRE ATT&CK Mapping
-[Link to mitre-mapping.md]
+[View MITRE Mapping](../2-templates/mitre-mapping.md)
 
 ### E. Kill Chain Analysis
-[Link to kill-chain-analysis.md]
+[View Kill Chain Analysis](../2-templates/kill-chain-analysis.md)
 
 ---
 
