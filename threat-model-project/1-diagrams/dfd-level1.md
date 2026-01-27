@@ -47,8 +47,13 @@ flowchart TB
 ```
 
 
-**PHI (Protected Health Information):** • Patient records queries • Lab results inbound • Prescription data  **PII (Personally Identifiable Information):** • Login credentials • Patient demographics • Insurance information  **Financial Data:** • Insurance claims • Payment information
+**PHI (Protected Health Information):** • Patient records queries • Lab results inbound • Prescription data  
+**PII (Personally Identifiable Information):** • Login credentials • Patient demographics • Insurance information  **Financial Data:** • Insurance claims • Payment information
 
 
-
-| Data Type | Classification | Encryption Required | Logging Required | |-----------|---------------|---------------------|------------------| | Patient Records | PHI - Critical | Yes (AES-256) | Yes - Full | | Login Credentials | PII - High | Yes (bcrypt) | Yes - Access | | Session Tokens | Sensitive | Yes (JWT signed) | Yes - Access | | Audit Logs | Internal | Yes (at rest) | N/A |
+| Data Type         | Classification  | Encryption Required | Logging Required |
+|-------------------|-----------------|---------------------|------------------|
+| Patient Records   | PHI - Critical  | Yes (AES-256)       | Yes - Full       |
+| Login Credentials | PII - High      | Yes (bcrypt)        | Yes - Access     |
+| Session Tokens    | Sensitive       | Yes (JWT signed)    | Yes - Access     |
+| Audit Logs        | Internal        | Yes (at rest)       | N/A              |
