@@ -13,37 +13,37 @@ graph TD
     G --> PHY[Physical Access]
 
     %% External Attacks
-    EXT --> SQLI[Exploit Web App (SQL Injection)]
-    EXT --> PHISH[Steal Credentials (Phishing)]
+    EXT --> SQLI[Exploit Web App: SQL Injection]
+    EXT --> PHISH[Steal Credentials: Phishing]
     EXT --> API[Abuse Insecure API]
 
     %% SQL Injection branch
     SQLI --> SQLI_DISC[Identify SQL Injection Vulnerability]
-    SQLI --> SQLI_EXP[Exploit Vulnerability to Dump DB]
+    SQLI --> SQLI_EXP[Exploit Vulnerability to Dump Database]
     SQLI --> SQLI_EXFIL[Exfiltrate Patient Records]
 
     %% Phishing branch
     PHISH --> PHISH_RECON[Identify High-Value Targets]
-    PHISH --> PHISH_CRAFT[Craft Convincing Phishing Email]
-    PHISH --> PHISH_DELIVER[Deliver Email & Bypass Filters]
-    PHISH --> PHISH_CREDS[Harvest Valid Credentials]
-    PHISH --> PHISH_ACCESS[Log In to Patient Portal/EMR]
+    PHISH --> PHISH_CRAFT[Craft Phishing Email]
+    PHISH --> PHISH_DELIV[Deliver Email and Bypass Filters]
+    PHISH --> PHISH_CREDS[Harvest Credentials]
+    PHISH --> PHISH_ACCESS[Access Patient Portal]
 
-    %% API Exploitation branch
-    API --> API_ENUM[Enumerate API Endpoints]
-    API --> API_WEAKAUTH[Find Weak or Missing Auth]
-    API --> API_DATA[Query/Export Patient Data]
+    %% API branch
+    API --> API_ENUM[Enumerate Endpoints]
+    API --> API_AUTH[Find Weak or Missing Auth]
+    API --> API_QUERY[Query or Export Patient Records]
 
-    %% Insider Attacks
+    %% Insider branch
     INS --> INS_ABUSE[Abuse Legitimate Access]
     INS --> INS_ESC[Escalate Privileges]
     INS --> INS_BULK[Bulk Export Patient Records]
 
-    %% Physical Attacks
-    PHY --> PHY_TAILGATE[Tailgate into Secure Area]
-    PHY --> PHY_WS[Access Unlocked Workstation]
-    PHY --> PHY_COPY[Copy/Export Patient Data to Removable Media]
-```
+    %% Physical branch
+    PHY --> PHY_TG[Tailgate into Facility]
+    PHY --> PHY_WS[Access Workstation]
+    PHY --> PHY_COPY[Copy Data to Removable Media]
+
 
 ## Easiest Path Analysis
 

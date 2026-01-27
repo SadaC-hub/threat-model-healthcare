@@ -47,8 +47,12 @@ flowchart TB
 ```
 
 
-**PHI (Protected Health Information):** • Patient records queries • Lab results inbound • Prescription data  
-**PII (Personally Identifiable Information):** • Login credentials • Patient demographics • Insurance information  **Financial Data:** • Insurance claims • Payment information
+**PHI (Protected Health Information):** • Patient records queries • Lab results inbound • Prescription data 
+
+**PII (Personally Identifiable Information):** • Login credentials • Patient demographics • Insurance information  
+
+**Financial Data:** • Insurance claims • Payment information
+
 
 
 | Data Type         | Classification  | Encryption Required | Logging Required |
