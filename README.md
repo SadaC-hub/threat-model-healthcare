@@ -1,8 +1,9 @@
 # Solaris Care Connect 360 – Healthcare Threat Modelling
 
-![Threat Model](https://img.shields.io/badge/Threat%20Model-STRIDE-blue?style=for-the-badge)
-![Framework](https://img.shields.io/badge/MITRE%20ATT%26CK-mapped-orange?style=for-the-badge)
-![Domain](https://img.shields.io/badge/Domain-Healthcare-critical?style=for-the-badge)
+![ThreatModel](https://img.shields.io/badge/Threat%20Model-STRIDE-blue)
+![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red?logo=mitre&logoColor=white)
+![KillChain](https://img.shields.io/badge/Framework-Cyber%20Kill%20Chain-darkred?logo=lockheedmartin&logoColor=white)
+![Domain](https://img.shields.io/badge/Domain-Healthcare-critical?logo=medic&logoColor=white)
 
 Solaris Care Connect 360 handles the electronic health records of ~50,000 patients, clinicians, and administrative users. This threat model was produced to evaluate security risks around PHI storage, access, and transmission, and to recommend appropriate mitigations.
 
