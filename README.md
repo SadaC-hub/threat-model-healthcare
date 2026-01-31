@@ -104,18 +104,20 @@ flowchart TB
 ## Threat Modelling Artefacts
 
 ### Modelling Artefacts
-- [Data Flow Diagrams (DFDs)](./1-diagrams)
-- [Trust Boundaries](./3-reports/threat-model-report.md#scope--boundaries)
-- [Attack Trees](./2-templates/attack-trees.md)
+- [Data Flow Diagram - Level 0](./1-diagrams/dfd-level0.md)
+- [Data Flow Diagram - Level 1](./1-diagrams/dfd-level1.md)
+- [Trust Boundaries](./3-reports/threat-model-report.md#trust-boundaries)
+- [Attack Trees](./1-diagrams/attack-trees.md)
 
 ### Analysis Artefacts
 - [STRIDE Threat Analysis](./2-templates/stride-threats.md)
-- [Threat Register](./2-templates/threat-register.md)
-- [Risk Scoring & Prioritisation](./3-reports/threat-model-report.md#risk-assessment)
+- [Threat Register](./2-templates/risk-register.md)
+- [MITRE ATT&CK Mapping](./2-templates/mitre-mapping.md)
+- [Kill Chain Analysis](./2-templates/kill-chain-analysis.md)
+- [Risk Scoring & Prioritisation](./3-reports/threat-model-report.md#4-risk-assessment)
 
 ### Outcome Artefacts
-- [Mitigation Roadmap](./3-reports/threat-model-report.md#mitigation-roadmap)
-- [Compliance (GDPR)](./3-reports/threat-model-report.md#regulatory--compliance)
+- [Mitigation Roadmap](./3-reports/threat-model-report.md#5-recommendations)
 - [Executive Summary](./3-reports/threat-model-report.md#executive-summary)
 
 ---
@@ -184,7 +186,7 @@ The platform’s current security posture is assessed as **High Risk**, driven b
 
 The full threat modelling report, including risk assessment and mitigation roadmap, is available here:
 
-👉 [Threat Modelling Report](./3-reports/threat-model-report.md)
+👉 - [Threat Model Report](./3-reports/threat-model-report.md)
 
 ---
 
